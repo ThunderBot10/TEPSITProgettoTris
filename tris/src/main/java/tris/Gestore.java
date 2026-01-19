@@ -134,6 +134,13 @@ public class Gestore implements Runnable{
 					out0.println(n);
 					a=in0.readLine();
 					b=in0.readLine();
+					while(Integer.parseInt(a) < 0 || Integer.parseInt(a) > 2 ||
+						       Integer.parseInt(b) < 0 || Integer.parseInt(b) > 2) {
+						n="1";
+						out0.println(n);
+						a=in0.readLine();
+						b=in0.readLine();
+					}
 				}
 				
 				tris[Integer.parseInt(a)][Integer.parseInt(b)]="x";
@@ -171,6 +178,13 @@ public class Gestore implements Runnable{
 					out1.println(n);
 					a=in1.readLine();
 					b=in1.readLine();
+					while(Integer.parseInt(a) < 0 || Integer.parseInt(a) > 2 ||
+						       Integer.parseInt(b) < 0 || Integer.parseInt(b) > 2) {
+						n="1";
+						out1.println(n);
+						a=in1.readLine();
+						b=in1.readLine();
+					}
 				}
 				
 				tris[Integer.parseInt(a)][Integer.parseInt(b)]="o";
