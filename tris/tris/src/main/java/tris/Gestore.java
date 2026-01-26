@@ -114,6 +114,13 @@ public class Gestore implements Runnable{
 		a=in0.readLine();
 		b=in0.readLine();
 		
+		while(a.equals("") || b.equals("") ) {
+			n="1";
+			out0.println(n);
+			a=in0.readLine();
+			b=in0.readLine();
+		}
+		
 		while(Integer.parseInt(a) < 0 || Integer.parseInt(a) > 2 ||
 			       Integer.parseInt(b) < 0 || Integer.parseInt(b) > 2) {
 			n="1";
@@ -127,6 +134,13 @@ public class Gestore implements Runnable{
 			out0.println(n);
 			a=in0.readLine();
 			b=in0.readLine();
+			
+			while(a.equals("") || b.equals("") ) {
+				n="1";
+				out0.println(n);
+				a=in0.readLine();
+				b=in0.readLine();
+			}
 			
 			while(Integer.parseInt(a) < 0 || Integer.parseInt(a) > 2 ||
 				       Integer.parseInt(b) < 0 || Integer.parseInt(b) > 2) {
