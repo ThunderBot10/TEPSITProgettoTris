@@ -3,7 +3,7 @@ Progetto nella realizzazione del gioco Tris con l'aggiunta di una sessione multi
 
 ***
 
-### Prerequisiti
+### 0. Prerequisiti
 Per poter eseguire il progetto, è necessario aver installato un compilatore/interprete Java, con supporto Maven, per permettere la comunicazione in rete. È consigliato aver scaricato un IDE (es. Eclipse) per poter far avviare le classi e vederne il comportamento nel terminale.
 
 ## 1. Installazione del software
