@@ -72,6 +72,8 @@ public class Client {
             System.err.println("Errore: " + e.getMessage());
             e.printStackTrace();
         }
+        
+        sca.close();
 	}
 
 }
