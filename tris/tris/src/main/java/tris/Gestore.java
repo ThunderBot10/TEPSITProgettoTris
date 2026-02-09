@@ -164,6 +164,8 @@ public class Gestore implements Runnable{
 			fine(out1);
 			out0.println("Vittoria");
 			out1.println("Sconfitta");
+			s0.close();
+			s1.close();
 			return true;
 		}
 		
@@ -225,4 +227,5 @@ public class Gestore implements Runnable{
 			
 	}
 }
+
 
