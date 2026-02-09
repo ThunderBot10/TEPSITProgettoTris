@@ -22,7 +22,7 @@ public class Client {
             
             String mes;
             
-            //inizio canzone
+            //inizio comunicazione
         	System.out.println("Inserisci il tuo nome");
         	writer.println(sca.nextLine());
         	
@@ -73,3 +73,4 @@ public class Client {
 	}
 
 }
+
