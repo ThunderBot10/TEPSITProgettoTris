@@ -61,6 +61,7 @@ public class Client {
                 		}
                 		mes=reader.readLine();
                 		System.out.println("\n"+mes);
+						socket.close();
                 		return;
                 }
             }
@@ -73,4 +74,5 @@ public class Client {
 	}
 
 }
+
 
