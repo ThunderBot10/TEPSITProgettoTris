@@ -193,7 +193,8 @@ public class Gestore implements Runnable{
 			fine(out0);
 			out1.println("Patta");
 			out0.println("Patta");
-			
+			s0.close();
+			s1.close();
 			
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -224,3 +225,4 @@ public class Gestore implements Runnable{
 			
 	}
 }
+
